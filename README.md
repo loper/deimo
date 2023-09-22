@@ -7,4 +7,4 @@ Automation system for deployments for:
 * docker
 * k8s
 * argocd
-* 
+  
