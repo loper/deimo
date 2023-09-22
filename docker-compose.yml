@@ -1,0 +1,13 @@
+---
+version: "3.9"
+services:
+  deimo:
+    image: registry.gitlab.com/k8s45/deimos:0.0.1
+    # build: ./app
+    container_name: deimo
+    environment:
+      - TZ=Europe/Warsaw
+    ports:
+      - 10002:8000
+    restart: unless-stopped
+
