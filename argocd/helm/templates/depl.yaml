@@ -24,3 +24,5 @@ spec:
           env:
             - name: VERSION
               value: "{{ .Values.image.tag }}"
+      imagePullSecrets:
+        - name: gitlab-registry

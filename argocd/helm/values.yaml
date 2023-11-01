@@ -1,6 +1,4 @@
-# Default values for rabbit.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
+# Default values for Deimo ArgoCD app.
 
 namespace: deimos
 replicaCount: 1
