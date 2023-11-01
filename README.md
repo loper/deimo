@@ -3,9 +3,9 @@ demo app for Deimos project
 
 # Deimos
 
-## Automation system for deployments for
-* native
-* docker
+## Automation system for 1-click deployments
+* native (ansible-based)
+* docker (docker-compose)
 * k8s
 * argocd
 
