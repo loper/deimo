@@ -4,9 +4,9 @@ kind: ConfigMap
 metadata:
   name: deimos-config
 data:
-  TZ: Europe/Warsaw
-  APP: deimo
-  DEPLOYMENT: deimo-acd
-  GIT_USER: deimos
-  MAX_WAIT: 40
-  NAMESPACE: deimos
+  TZ: "Europe/Warsaw"
+  APP: "deimo"
+  DEPLOYMENT: "deimo-acd"
+  GIT_USER: "deimos"
+  MAX_WAIT: "40"
+  NAMESPACE: "deimos"
