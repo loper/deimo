@@ -6,7 +6,7 @@ replicaCount: 1
 image:
   repository: registry.gitlab.com/k8s45/deimos
   pullPolicy: Always
-  tag: "0.0.3"
+  tag: "0.0.4"
 
 podAnnotations: {}
 
